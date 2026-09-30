@@ -1,0 +1,9 @@
+[project]
+name = "transaction-anomalies"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "streamlit[snowflake]>=1.54.0",
+    "pandas>=2.0.0",
+    "plotly>=5.20.0",
+]
